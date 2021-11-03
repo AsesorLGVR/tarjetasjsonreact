@@ -56,7 +56,7 @@ const Quiz = ({data, setData, finishQuiz, restartQuiz}) => {
 
   return (
     <div className={classes.Quiz}>
-      <Header text="Tarjetas JSON">
+      <Header text="Spanish.Immersive">
         <div className={classes.QuitButton}>
           <Button type="link" value="Salir" onClick={finishQuiz} />
         </div>

@@ -87,56 +87,11 @@ const Landing = () => {
     <>
       {!quizData ? (
         <>
-          {modalState.show && (
-            <Modal hideModal={handleHideModal}>
-                {modalState.content === 'instructions' ? 
-                  <Card instructions>
-                    <div className={classes.Instructions}>
-                      <VerticalLayout center="horizontal">
-                        <Text type="header2">
-                          Instructions
-                        </Text>
-                        <Text type="body2">
-                          In order to use this tool, your .json quiz file must be
-                          formatted in a specific way. Format your questions and multiple choice answers as shown
-                          in the example below, specifying the correct answer by its
-                          index in the options array.
-                        </Text>
-                        <Code>{instructionsText}</Code>
-                        <Button
-                          type="button"
-                          value="got it"
-                          onClick={handleHideModal}
-                        ></Button>
-                      </VerticalLayout>
-                    </div>
-                  </Card> : 
-                  <Card credits>
-                      <div className={classes.Instructions}>
-                      <VerticalLayout center="middle">
-                        <Text type="header2">
-                          Créditos
-                        </Text>
-                          <div>Icons made by <a href="https://www.flaticon.com/authors/roundicons"
-                            title="Roundicons">Roundicons</a> from <a
-                            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-                          <div>Icons made by <a href="https://www.flaticon.com/authors/freepik"
-                            title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
-                            title="Flaticon">www.flaticon.com</a></div>
-                        <Button
-                          type="button"
-                          value="ok"
-                          onClick={handleHideModal}
-                        ></Button>
-                      </VerticalLayout>
-                    </div>
-                  </Card> }
-            </Modal>
-          )}
+         
           <div className={classes.Landing}>
             <VerticalLayout center="horizontal" spaceBetween={1.25}>
               <Text variant="primary" bold type="title">
-                Tarjetas JSON
+                Spanish.Immersive
             </Text>
               <Text type="body1">
                 Crea tarjetas rápido con archivos json.
@@ -161,26 +116,10 @@ const Landing = () => {
                     <Spinner text="Subiendo tus tarjetas..." />
                   )}
               </DragAndDropCard>
-              <IconWrapper iconSize={1.5} iconType="help">
-                <div className={classes.format_instructions}>
-                  <Text type="body2" underline>
-                    <Button
-                      type="link"
-                      value="Cómo formateo mi archivo json?"
-                      onClick={handleShowInstructions}
-                    />
-                  </Text>
-                </div>
-              </IconWrapper>
+             
             </VerticalLayout>
             <div className={classes.Credits}>
-              <Text type="body3" align="center" underline>
-                <Button
-                  type="link"
-                  value="créditos"
-                  onClick={handleShowCredits}
-                />
-              </Text>
+              
             </div>
           </div>
         </>
