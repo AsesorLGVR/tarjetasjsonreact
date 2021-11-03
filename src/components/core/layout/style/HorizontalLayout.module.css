@@ -1,0 +1,29 @@
+.HorizontalLayout {
+  flex-flow: row nowrap;
+  display: flex;
+  margin: 0;
+  height: 100%;
+}
+
+.HorizontalLayout > .child:first-of-type {
+  padding-left: 0;
+}
+
+.HorizontalLayout > .child:last-of-type {
+  padding-right: 0;
+}
+
+.vcenter {
+  align-items: center;
+  height: 100%;
+}
+
+.hcenter {
+  justify-content: center;
+}
+
+.middle {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

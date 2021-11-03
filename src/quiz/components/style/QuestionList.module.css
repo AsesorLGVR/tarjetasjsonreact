@@ -1,0 +1,4 @@
+.QuestionList {
+  overflow-y: auto;
+  word-break: break-all;
+}

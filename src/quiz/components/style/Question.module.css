@@ -1,0 +1,24 @@
+.QuestionContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Question {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.disabled {
+  cursor: default;
+}
+
+.Question:not(.disabled):hover,
+.selected {
+  font-weight: 600;
+}
+
+
+.hidden {
+  display: none;
+}

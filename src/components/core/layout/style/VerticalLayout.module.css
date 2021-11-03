@@ -1,0 +1,28 @@
+.VerticalLayout {
+  flex-flow: column nowrap;
+  display: flex;
+  margin: 0 auto;
+}
+
+.VerticalLayout > .child:first-of-type {
+  padding-top: 0;
+}
+
+.VerticalLayout > .child:last-of-type {
+  padding-bottom: 0;
+}
+
+.vcenter {
+  justify-content: safe center;
+  height: 100%;
+}
+
+.hcenter {
+  align-items: center;
+}
+
+.middle {
+  align-items: center;
+  justify-content: safe center;
+  height: 100%;
+}

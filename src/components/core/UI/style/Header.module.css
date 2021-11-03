@@ -1,0 +1,30 @@
+.Header {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8F2357;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.Header::before {
+  content: "";
+  flex: 1;
+}
+
+.Header_Links {
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1;
+}
+
+.Header_Links > div {
+  text-align: right;
+  padding: 0 2em;
+}
+
+.Text {
+  padding: 1.25em 0;
+  flex: 1;
+}

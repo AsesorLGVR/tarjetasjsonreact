@@ -1,0 +1,21 @@
+[
+  {
+    "question": "¿Cuál es el pronombre personal?",
+    "options": [
+      "aquí",
+      "Yo",
+      "allá",
+      "menos",
+      "perro"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Madrid es la capital de ESpaña.",
+    "options": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correct": 0
+  }
+]

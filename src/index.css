@@ -1,0 +1,19 @@
+body {
+  background-image: url('./assets/quiz-bg.png');
+  margin: 0;
+  font-family: "Fira Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  --color-primary: #8F2357;
+  --color-secondary: #D6D948;
+  --color-dark: #000;
+  --color-light: #fff;
+  --transparent: rgba(255, 255, 255, 0);
+}
+
+* {
+  box-sizing: border-box;
+}

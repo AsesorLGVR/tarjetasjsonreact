@@ -1,0 +1,62 @@
+.title {
+  font-weight: 300;
+  font-size: 5rem;
+  margin: 0;
+  line-height: 0.75;
+}
+
+.header1 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.body1 {
+  font-size: 1.25rem;
+}
+
+.body2 {
+  font-size: 1rem;
+}
+
+.body3 {
+  font-size: 0.75rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.primary {
+  color: var(--color-primary);
+}
+.secondary {
+  color: var(--color-secondary);
+}
+
+.light {
+  color: var(--color-light);
+}
+
+.dark {
+  color: var(--color-dark);
+}

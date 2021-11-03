@@ -1,0 +1,56 @@
+.Quiz {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+.QuizPanel {
+  display: flex;
+  height: 100%;
+  margin: 0;
+}
+
+.title {
+  padding: 0.75em 0;
+}
+
+.QuitButton {
+  font-size: 1.875rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.QuitButton > input:hover {
+  text-decoration: underline;
+}
+
+.SettingsButtonText {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.SettingsButton {
+  padding-top: 1.5em;
+}
+
+.Sidebar_Layout {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.TransitionButton {
+  text-align: center;
+  padding-bottom: 1em;
+  margin-top: auto;
+}
+
+.QuestionWrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
